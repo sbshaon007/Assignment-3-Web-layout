@@ -1,0 +1,446 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Ibarra Real Nova', serif;	
+}
+
+/* Header Starts*/
+
+header{
+	width: 100%;
+	float: left;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.logo{
+	width: 30%;
+	float: left;
+	text-align: right;
+}
+
+.logo a img{
+	height: 78px;
+	margin-right: 80px;
+
+}
+
+.menu{
+	width: 40%;
+	float: left;
+}
+
+
+nav ul{
+	list-style: none;
+
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 10px 20px 10px 0px;
+	padding-top: 20px;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+.social-btn{
+	width: 30%;
+	float: left;
+}
+
+.social-btn ul{
+	list-style: none;
+}
+
+.social-btn ul li{
+	display: inline-block;
+	margin: 10px 10px 10px 0px;
+	padding-top: 15px;
+	font-size: 15px;
+}
+
+.social-btn ul li a{
+	text-decoration: none;
+}
+
+.fa.fa-facebook {
+    background: #4267B2;
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 4px;
+}
+
+.fa.fa-twitter {
+    background: #1DA1F2;
+    color:#fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+.fa.fa-linkedin {
+    background: #0077B5;
+    color:#fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.fa.fa-instagram {
+    background:#DD4B39;
+    color:#fff;
+    padding: 6px 9px;
+    border-radius: 4px;
+}
+
+
+.fa.fa-sign-in {
+    color: #000;
+    font-size: 18px;
+}
+
+
+/*Banner Section Starts*/
+
+
+.sec-one {
+	width: 100%;
+	float: left;
+}
+
+
+.o-one{
+	background: url(../img/lnd.jpg);
+	display: block;
+	width: 1140px;
+	height: 400px;
+	margin: 5px auto;
+	background-size: cover;
+}
+.ad-banner {
+    background: 
+    rgba(163, 162, 153,30%);
+    width: 410px;
+    margin: 47px 100px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+section div div h1{
+	display: block;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 50px;
+	
+}
+
+.paragraph{
+	display: block;
+	font-size: 11px;
+	text-transform: none;
+	text-align: center;
+	padding-top: 10px;
+	
+}
+
+
+button {
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    background-color:#66C430;
+    border-radius: 6px;
+    padding: 10px 16px;
+    margin: 13px;
+    cursor: pointer;
+}
+
+.button{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+.sec-two{
+	width: 100%;
+	float: left;
+	}
+
+	
+.b-one{
+	float: left;
+	width: 25%;
+	height: 300px;
+	display: inline-block;
+}
+.fa.fa-check {
+    text-align: center;
+    background: #6879D4;
+    border-radius: 53%;
+    color:white;
+    margin-top: 26px;
+    margin-left: 106px;
+    padding: 20px;
+    font-size: 29px;
+}
+
+
+
+.b-two{
+	float: left;
+	width: 25%;
+	height: 299px;
+	display: inline-block;
+}
+.fa.fa-map-marker {
+    text-align: center;
+    background: #009688;
+    border-radius: 53%;
+    color:white;
+    margin-top: 29px;
+    margin-left: 107px;
+    padding: 21px 29px;
+    font-size: 29px;
+}
+
+.b-three{
+	float: left;
+	width: 25%;
+	height: 300px;
+	display: inline-block;
+}
+.fa.fa-money {
+    text-align: center;
+    background: #4CAF50;
+    border-radius: 61%;
+    color:white;
+    margin-top: 29px;
+    margin-left: 107px;
+    padding: 23px 24px;
+    font-size: 29px;
+}
+
+.b-four{
+	float: left;
+	width: 25%;
+	height: 300px;
+	display: inline-block;
+
+}
+.fa.fa-user-plus{
+    text-align: center;
+    background: #66C430;
+    border-radius: 61%;
+    color:white;
+    margin-top: 29px;
+    margin-left: 107px;
+    padding: 23px 24px;
+    font-size: 29px;
+}
+
+section div div p{
+	padding: 15px;
+	text-align: left;
+	font-size: 15px;
+	margin-left: 10px;
+}
+
+.button-two{
+	text-align: center;
+}
+
+/*--Invest Section Starts--*/
+
+.sec-three{
+	width: 100%;
+	float: left;
+}
+
+.invest{
+	width: 50%;
+	float: left;
+
+}
+.invest-bg {
+    background: #B7CCD3;
+    width: 388px;
+    padding: 35px 36px;
+    margin-top: 23px;
+    margin-left: 52px;
+    border-radius: 9px;
+}
+
+.fa.fa-stop-circle-o{
+	color: #000;
+	margin: 10px;
+}
+
+.para{
+	color: black;
+	margin-left: 5px;
+}
+
+/*Blog Section Starts*/
+
+.sec-four{
+	width: 100%;
+	float: left;
+}
+
+.blog{
+	width: 50%;
+	float: left;
+}
+h2{
+	text-align: center;
+	color: black;
+	margin: 8px;
+}
+
+.blog-content{
+	width: 420px;
+	margin: 10px 0px 10px 50px;
+	color: steelblue;
+}
+
+.para-two{
+	display: block;
+    color:black;
+    padding: 13px 0px 11px 0px;
+    margin: 3px
+
+}
+
+.para-three{
+	display: block;
+    color: black;
+    padding: 41px 0px 10px 0px;
+    margin: 0px;
+
+}
+
+/* Achievement Section Starts*/
+
+.sec-five{
+	width: 100%;
+	float: left;
+}
+
+.container-achieve{
+	width: 1140px;
+	margin: 0 auto;
+	background: #DCDCDC;
+}
+
+.achive{
+	display: block;
+	width: 350px;
+	margin: auto;
+}
+
+.achive-center{
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.achive-spacing{
+	padding: 3px;
+}
+
+/* Star Section Starts*/
+
+.sec-six{
+	width: 100%;
+	float: left;
+}
+
+.star{
+	display: block;
+	width: 350px;
+	margin: auto;
+}
+.star-center{
+	font-size: 20px;
+	text-align: center;
+	padding: 20px 0 0 0;
+}
+
+.fa.fa.fa-star{
+	color: #00B67A;
+}
+.trust{
+	color: black;
+}
+
+.star-btn{
+	width: 350px;
+	text-align: center;
+}
+.star-btn ul{
+	list-style: none;
+}
+
+.star-btn ul li{
+	display: inline-block;
+	font-size: 20px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.fa.fa-star-o{
+	margin-top: 10px;
+	background: #73CF11;
+	color: #fff;
+	padding: 6px 9px;
+}
+
+
+.para-align{
+	text-align: center;
+	font-size: 13px;
+}
+
+/* Footer Section Starts*/
+
+.sec-seven{
+	width: 100%;
+	float: left;
+}
+
+.container-f{
+	width: 1140px;
+	background: #052D3A;
+	margin: 0 auto;
+	height: 140px;
+}
+
+
+.footer-padding{
+	width: 570px;
+	margin: 0 auto;
+}
+
+.footer{
+	width: 50%;
+	float: left;
+	padding-top: 40px;
+}
+
+.footer p{
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	padding-top: 5px;
+}
